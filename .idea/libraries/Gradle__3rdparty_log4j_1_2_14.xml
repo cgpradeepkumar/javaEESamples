@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: 3rdparty:log4j:1.2.14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/eaf/released/3rdparty/logging.log4j/1.2.14/log4j.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaEESamples.iml" filepath="$PROJECT_DIR$/.idea/modules/javaEESamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleEar.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleEar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleEjb/sampleEjb.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleEjb/sampleEjb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleEjbClient/sampleEjbClient.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleEjbClient/sampleEjbClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleEjbTest/sampleEjbTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleEjbTest/sampleEjbTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpring.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringAop.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringAop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringBootApp.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringBootApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringSecurityDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringSecurityDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleUtil/sampleUtil.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleUtil/sampleUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleWeb/sampleWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleWeb/sampleWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springMvcJpaDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/springMvcJpaDemo.iml" />
+    </modules>
+  </component>
+</project>

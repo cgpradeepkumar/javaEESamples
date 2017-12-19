@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+def eaf3rdParty = System.getProperty('user.home') + '/eaf/released'
+
+repositories {
+    mavenCentral()
+    ivy {
+        name '3rdpartyLocal'
+        url eaf3rdParty
+        layout "pattern", {
+            artifact '[organization]/[module]/[revision]/[artifact].[ext]'
+            ivy '[organization]/[module]/[revision]/ivy.xml'
+        }
+    }
+}
+
+dependencies {
+    compile '3rdparty:javaee.api:6'
+//    compile 'javax:javaee-api:7.0'
+}

@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Gradle : sampleEar.ear (exploded)">
+    <output-path>$PROJECT_DIR$/sampleEar/build/libs/exploded/sampleEar.ear</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/sampleEar">
+        <files>
+          <file path="$PROJECT_DIR$/sampleEar/build/libs/exploded/sampleEar.ear/META-INF/application.xml" value="PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxhcHBsaWNhdGlvbiB4bWxucz0iaHR0cDovL2phdmEuc3VuLmNvbS94bWwvbnMvamF2YWVlIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIgogICAgICAgICAgICAgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vamF2YS5zdW4uY29tL3htbC9ucy9qYXZhZWUgaHR0cDovL2phdmEuc3VuLmNvbS94bWwvbnMvamF2YWVlL2FwcGxpY2F0aW9uXzYueHNkIgogICAgICAgICAgICAgdmVyc2lvbj0iNiI+CiAgICA8ZGlzcGxheS1uYW1lPnNhbXBsZUVhcjwvZGlzcGxheS1uYW1lPgogICAgPG1vZHVsZT4KICAgICAgICA8ZWpiPnNhbXBsZUVqYi5qYXI8L2VqYj4KICAgIDwvbW9kdWxlPgogICAgPGxpYnJhcnktZGlyZWN0b3J5PmxpYjwvbGlicmFyeS1kaXJlY3Rvcnk+CjwvYXBwbGljYXRpb24+Cg==" />
+        </files>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/sampleEar/build/libs/exploded/sampleEar.ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sampleEar/javaeeApplication/JavaEE Application Gradle : sampleEar.ear" />
+      <element id="dir-copy" path="$PROJECT_DIR$/sampleEar/src/main/application" />
+      <element id="file-copy" path="$PROJECT_DIR$/sampleEar/sampleEjb/build/libs/sampleEjb.jar" />
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$PROJECT_DIR$/sampleEar/sampleEjbClient/build/libs/sampleEjbClient.jar" />
+        <element id="file-copy" path="$USER_HOME$/eaf/released/3rdparty/javaee.api/6/javaee-api-6.0-3.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

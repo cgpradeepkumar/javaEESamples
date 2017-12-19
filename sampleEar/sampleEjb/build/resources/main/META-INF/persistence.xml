@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+  http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+    <persistence-unit name="sample.pu" transaction-type="JTA">
+        <jta-data-source>jdbc/oracle</jta-data-source>
+        <class>sample.jee.bean.jpa.Question</class>
+        <properties>
+            <property name='openjpa.Compatibility' value='CheckDatabaseForCascadePersistToDetachedEntity=true'/>
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="sample.db2.pu" transaction-type="JTA">
+        <jta-data-source>jdbc/db2</jta-data-source>
+        <class>sample.jee.bean.jpa.ReconPoint</class>
+        <properties>
+            <property name='openjpa.jdbc.DBDictionary' value="db2(supportsGetGeneratedKeys=false)"/>
+            <property name='openjpa.Compatibility' value='CheckDatabaseForCascadePersistToDetachedEntity=true'/>
+            <property name="toplink.jdbc.url"
+                      value="jdbc:as400://mebdev/orbwebdevl;libraries=ORBWEBDEVL,FAW.DEVL,FAW.TEST,FAW.PROD,FAW.BASPRD;"/>
+            <property name="toplink.jdbc.driver" value="com.ibm.as400.access.AS400JDBCDriver"/>
+            <property name="hibernate.connection.url"
+                      value="jdbc:as400://mebdev/orbwebdevl;libraries=ORBWEBDEVL,FAW.DEVL,FAW.TEST,FAW.PROD,FAW.BASPRD;"/>
+            <property name="hibernate.connection.driver_class" value="com.ibm.as400.access.AS400JDBCDriver"/>
+            <property name="openjpa.ConnectionURL"
+                      value="jdbc:as400://mebdev/orbwebdevl;libraries=ORBWEBDEVL,FAW.DEVL,FAW.TEST,FAW.PROD,FAW.BASPRD;"/>
+            <property name="openjpa.ConnectionDriverName" value="com.ibm.as400.access.AS400JDBCDriver"/>
+            <property name="eclipselink.jdbc.url"
+                      value="jdbc:as400://mebdev/orbwebdevl;libraries=ORBWEBDEVL,FAW.DEVL,FAW.TEST,FAW.PROD,FAW.BASPRD;"/>
+            <property name="eclipselink.jdbc.driver" value="com.ibm.as400.access.AS400JDBCDriver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : sampleEar : sampleWeb.war">
+    <output-path>$PROJECT_DIR$/sampleEar/sampleWeb/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/sampleEar" />
+    </properties>
+    <root id="archive" name="sampleWeb.war">
+      <element id="artifact" artifact-name="Gradle : sampleEar : sampleWeb.war (exploded)" />
+    </root>
+  </artifact>
+</component>

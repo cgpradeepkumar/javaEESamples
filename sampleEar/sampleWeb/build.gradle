@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+def eaf3rdParty = System.getProperty('user.home') + '/eaf/released'
+
+repositories {
+    mavenCentral()
+    ivy {
+        name '3rdpartyLocal'
+        url eaf3rdParty
+        layout "pattern", {
+            artifact '[organization]/[module]/[revision]/[artifact].[ext]'
+            ivy '[organization]/[module]/[revision]/ivy.xml'
+        }
+    }
+
+    flatDir {
+        dirs 'src/main/webapp/web-inf/libs'
+    }
+}
+
+dependencies {
+    compile project(':sampleUtil')
+    compile project(':sampleEjbClient')
+    compile '3rdparty:web.jspAPI:2.3'
+    compile '3rdparty:web.servletAPI:3.0'
+}

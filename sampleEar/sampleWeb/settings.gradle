@@ -1,0 +1,4 @@
+include ':sampleEjbClient'
+project(':sampleEjbClient').projectDir = new File(settingsDir, "../sampleEjbClient")
+include ':sampleUtil'
+project(':sampleUtil').projectDir = new File(settingsDir, "../sampleUtil")
