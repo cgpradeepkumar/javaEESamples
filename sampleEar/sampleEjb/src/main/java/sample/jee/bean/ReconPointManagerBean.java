@@ -5,6 +5,7 @@ import sample.jee.bean.jpa.ReconPoint;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.util.List;
 
 /**
@@ -12,10 +13,10 @@ import java.util.List;
  * @project javaEESamples
  */
 
-@Stateless(name = "reconPointManagerBean", mappedName = "sample/ReconPointManagerBean")
+@Stateless(name = "ReconPointManagerBean", mappedName = "sample/ReconPointManagerBean")
 public class ReconPointManagerBean implements ReconPointManagerRemote {
 
-    @PersistenceContext(name = "sample.db2.pu")
+    @PersistenceContext(unitName = "sample.db2.pu")
     private EntityManager entityManager;
 
     @Override
@@ -27,7 +28,16 @@ public class ReconPointManagerBean implements ReconPointManagerRemote {
             System.out.println("EntityManager is not null");
         }
 
+        Query query = entityManager.createNamedQuery("ReconPoint.findAll");
+        List<ReconPoint> reconPointList = query.getResultList();
 
-        return null;
+        return reconPointList;
+    }
+
+    @Override
+    public ReconPoint find(String grpNo, Integer rcpNo) {
+
+        ReconPoint reconPoint = entityManager.find(ReconPoint.class, new ReconPoint.PK(grpNo, rcpNo));
+        return reconPoint;
     }
 }

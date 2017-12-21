@@ -1,5 +1,9 @@
 package sample.jee.bean.jpa;
 
+import org.apache.commons.lang.builder.EqualsBuilder;
+import org.apache.commons.lang.builder.HashCodeBuilder;
+import org.apache.commons.lang.builder.ToStringBuilder;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -11,6 +15,7 @@ import java.sql.Timestamp;
 
 @Entity
 @Table(name = "FJCMSRCPPF")
+@NamedQuery(name = "ReconPoint.findAll", query = "Select rcp From ReconPoint rcp")
 public class ReconPoint implements Serializable {
 
     @EmbeddedId
@@ -49,8 +54,10 @@ public class ReconPoint implements Serializable {
     @Embeddable
     public static class PK implements Serializable, Cloneable {
 
+        @Column(name = "GRPNO")
         private String grpNo;
 
+        @Column(name = "RCPNO")
         private Integer rcpNo;
 
         public PK() {
@@ -77,6 +84,21 @@ public class ReconPoint implements Serializable {
 
         public void setRcpNo(Integer rcpNo) {
             this.rcpNo = rcpNo;
+        }
+
+        @Override
+        public String toString() {
+            return ToStringBuilder.reflectionToString(this);
+        }
+
+        @Override
+        public int hashCode() {
+            return HashCodeBuilder.reflectionHashCode(this);
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            return EqualsBuilder.reflectionEquals(this, obj);
         }
     }
 }

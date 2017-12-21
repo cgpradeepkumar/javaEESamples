@@ -15,6 +15,7 @@
     <persistence-unit name="sample.db2.pu" transaction-type="JTA">
         <jta-data-source>jdbc/db2</jta-data-source>
         <class>sample.jee.bean.jpa.ReconPoint</class>
+        <class>sample.jee.bean.jpa.ReconPoint$PK</class>
         <properties>
             <property name='openjpa.jdbc.DBDictionary' value="db2(supportsGetGeneratedKeys=false)"/>
             <property name='openjpa.Compatibility' value='CheckDatabaseForCascadePersistToDetachedEntity=true'/>

@@ -2,4 +2,5 @@
 <ejb-jar-bnd version="1.0" xmlns="http://websphere.ibm.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-ejb-jar-bnd_1_0.xsd ">
 	<session name="SampleBean" simple-binding-name="sample/SampleBean"></session>
 	<session name="QuestionnaireManagerBean" simple-binding-name="sample/QuestionnaireManagerBean"></session>
+	<session name="ReconPointManagerBean" simple-binding-name="sample/ReconPointManagerBean"></session>
 </ejb-jar-bnd>	

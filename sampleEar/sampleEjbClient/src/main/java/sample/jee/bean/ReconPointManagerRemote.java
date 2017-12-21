@@ -16,4 +16,6 @@ public interface ReconPointManagerRemote {
     public static final String JNDI_NAME = "sample/ReconPointManagerBean";
 
     public List<ReconPoint> findAll();
+
+    public ReconPoint find(String grpNo, Integer rcpNo);
 }
