@@ -3,12 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/File Header.txt.ft">
           <value>
             <set />
           </value>
         </entry>
         <entry key="/Interface.txt.ft">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
@@ -28,12 +38,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjb/src/main/java/sample/jee/bean/DistributionGroupingManagerBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/sampleEar/sampleEjb/src/main/java/sample/jee/bean/ReconPointManagerBean.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/sampleEar/sampleEjb/src/main/java/sample/jee/bean/SampleBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjb/src/main/resources/META-INF/ibm-ejb-jar-bnd.xml">
           <value>
             <set />
           </value>
@@ -48,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/DistributionGroupingManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/ReconPointManagerRemote.java">
           <value>
             <set />
@@ -58,7 +83,117 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/jpa/DistributionGrouping.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/jpa/DistributionGroupingHierarchy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/jpa/DistributionGroupingType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/jpa/ReconPoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/jpa/ReconPointDistribution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbClient/src/main/java/sample/jee/bean/jpa/ReconPointDistributionContact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbTest/src/main/java/sample/jee/bean/test/ReconPointBeanTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleEjbTest/src/main/java/sample/jee/bean/test/ReconPointManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleEar/sampleUtil/src/main/java/sample/jee/bean/util/ServiceResolver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringBootApp/src/main/java/sample/springboot/WelcomeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/SpringBootWebApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/app/ApplicationConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/app/SpringBootMainApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/app/SpringBootWebApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/app/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/components/SpringJpaBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/controller/ProductController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/services/ProductService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/services/ProductServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/services/entities/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/java/sample/rest/services/repositories/ProductRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sampleSpringRest/src/main/resources/application.properties">
           <value>
             <set />
           </value>

@@ -40,4 +40,12 @@ public class ReconPointManagerBean implements ReconPointManagerRemote {
         ReconPoint reconPoint = entityManager.find(ReconPoint.class, new ReconPoint.PK(grpNo, rcpNo));
         return reconPoint;
     }
+
+    @Override
+    public ReconPoint save(ReconPoint reconPoint) {
+
+        reconPoint = entityManager.merge(reconPoint);
+
+        return reconPoint;
+    }
 }

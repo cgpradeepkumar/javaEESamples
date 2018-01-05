@@ -1,0 +1,51 @@
+apply plugin: 'java'
+
+apply plugin: 'org.springframework.boot'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+def eaf3rdParty = System.getProperty('user.home') + '/eaf/released'
+
+
+
+bootRepackage {
+    mainClass = 'sample.demo.SpringBootDemoApplication'
+}
+
+repositories {
+    mavenCentral()
+
+    ivy {
+        name '3rdpartyLocal'
+        url eaf3rdParty
+        layout "pattern", {
+            artifact '[organization]/[module]/[revision]/[artifact].[ext]'
+            ivy  '[organization]/[module]/[revision]/ivy.xml'
+        }
+    }
+
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-tomcat")
+    compile("org.apache.tomcat.embed:tomcat-embed-jasper")
+    testCompile("junit:junit")
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'javax.servlet:jstl:1.2', 'taglibs:standard:1.1.2'
+    compile("org.springframework.data:spring-data-jpa:1.11.1.RELEASE")
+    compile("org.hibernate:hibernate-core:4.1.7.Final")
+    compile("org.hibernate:hibernate-entitymanager:4.1.7.Final")
+    compile("commons-dbcp:commons-dbcp:1.4")
+    compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.6.10'
+}

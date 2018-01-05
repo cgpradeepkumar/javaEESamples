@@ -31,6 +31,7 @@
             <element id="module-output" name="sampleEjbClient" />
             <element id="dir-copy" path="$PROJECT_DIR$/sampleEar/sampleEjbClient/out/production/resources" />
           </element>
+          <element id="library" level="project" name="Gradle: 3rdparty:commons-lang:2.4" />
           <element id="library" level="project" name="Gradle: 3rdparty:javax.servlet.jsp-api-2.3.1:2.3" />
           <element id="library" level="project" name="Gradle: 3rdparty:servlet:3.0" />
         </element>

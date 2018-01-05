@@ -1,0 +1,8 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸Šñ¦8…·±å‰,
+[squid:UselessImportCheck"-Remove this unused import 'org.junit.Ignore'.(®ÅýÏÿÿÿÿÿ8åã¶ˆŠ,
+Bsquid:S2129"!Remove this "Integer" constructor(ß˜®Áøÿÿÿÿ8ŽÄÌß‰,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8©£žß‰,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ˜ø„8ï†Â‘Š,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8À·Üò†,
+Bsquid:S2129"!Remove this "Integer" constructor(îÈ”·úÿÿÿÿ8À¼÷†,

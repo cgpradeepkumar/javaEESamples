@@ -61,6 +61,7 @@ public class ServiceResolver {
 
     public Object lookup(String jndiName) throws NamingException {
         //String context = "localhostNode01Cell/nodes/localhostNode01/servers/server1/";
+
         Object object = getInitialContext().lookup(jndiName);
         return object;
     }

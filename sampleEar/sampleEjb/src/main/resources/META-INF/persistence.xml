@@ -16,6 +16,13 @@
         <jta-data-source>jdbc/db2</jta-data-source>
         <class>sample.jee.bean.jpa.ReconPoint</class>
         <class>sample.jee.bean.jpa.ReconPoint$PK</class>
+        <class>sample.jee.bean.jpa.ReconPointDistribution</class>
+        <class>sample.jee.bean.jpa.ReconPointDistribution$PK</class>
+        <class>sample.jee.bean.jpa.ReconPointDistributionContact</class>
+        <class>sample.jee.bean.jpa.ReconPointDistributionContact$PK</class>
+        <class>sample.jee.bean.jpa.DistributionGroupingHierarchy</class>
+        <class>sample.jee.bean.jpa.DistributionGrouping</class>
+        <class>sample.jee.bean.jpa.DistributionGroupingType</class>
         <properties>
             <property name='openjpa.jdbc.DBDictionary' value="db2(supportsGetGeneratedKeys=false)"/>
             <property name='openjpa.Compatibility' value='CheckDatabaseForCascadePersistToDetachedEntity=true'/>

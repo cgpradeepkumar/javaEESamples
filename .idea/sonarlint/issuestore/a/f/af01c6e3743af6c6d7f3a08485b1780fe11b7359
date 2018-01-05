@@ -1,13 +1,13 @@
 
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Å²¶Üþÿÿÿÿ
 esquid:S2259"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(ÈúÞØúÿÿÿÿ
 zsquid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "question".(ÈúÞØúÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(³÷¥¨
 {squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "questions".(¶ÉÊŠùÿÿÿÿ
 esquid:S2259"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(Å¤–¤ûÿÿÿÿ
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(³÷¥¨
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(Å²¶Üþÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å²¶Üþÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(³÷¥¨

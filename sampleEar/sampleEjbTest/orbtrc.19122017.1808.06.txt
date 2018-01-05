@@ -1,0 +1,31 @@
+18:08:06.814 com.ibm.rmi.corba.ClientDelegate invoke:697 P=86301:O=0:CT ORBRas[default] Received SystemException org.omg.CORBA.UNKNOWN: 
+	>> SERVER (id=4773e3aa, host=01hw824061) TRACE START:
+	>>    javax.ejb.EJBException: The sample.db2.pu reference of type javax.persistence.EntityManager for the reconPointManagerBean component in the sampleEjb.jar module of the sampleEar application cannot be resolved.
+	>>	 at com.ibm.wsspi.injectionengine.InjectionBinding.getInjectionObject(InjectionBinding.java:1155)
+	>>	 at com.ibm.wsspi.injectionengine.InjectionBinding.getInjectableObject(InjectionBinding.java:1033)
+	>>	 at com.ibm.wsspi.injectionengine.InjectionTarget.inject(InjectionTarget.java:125)
+	>>	 at com.ibm.ws.injectionengine.AbstractInjectionEngine.inject(AbstractInjectionEngine.java:1084)
+	>>	 at com.ibm.ejs.container.StatelessBeanO.initialize(StatelessBeanO.java:289)
+	>>	 at com.ibm.ejs.container.BeanOFactory.create(BeanOFactory.java:130)
+	>>	 at com.ibm.ejs.container.EJSHome.createNewBeanO(EJSHome.java:869)
+	>>	 at com.ibm.ejs.container.EJSHome.createBeanO(EJSHome.java:1242)
+	>>	 at com.ibm.ejs.container.EJSHome.createBeanO(EJSHome.java:1360)
+	>>	 at com.ibm.ejs.container.activator.UncachedActivationStrategy.atActivate(UncachedActivationStrategy.java:89)
+	>>	 at com.ibm.ejs.container.activator.Activator.preInvokeActivateBean(Activator.java:324)
+	>>	 at com.ibm.ejs.container.EJSContainer.preInvokeActivate(EJSContainer.java:3728)
+	>>	 at com.ibm.ejs.container.EJSContainer.EjbPreInvoke(EJSContainer.java:3042)
+	>>	 at sample.jee.bean.EJSRemote0SLreconPointManagerBean_cdd46c24.findAll(EJSRemote0SLreconPointManagerBean_cdd46c24.java)
+	>>	 at sample.jee.bean._EJSRemote0SLreconPointManagerBean_cdd46c24_Tie.findAll(_EJSRemote0SLreconPointManagerBean_cdd46c24_Tie.java:1)
+	>>	 at sample.jee.bean._EJSRemote0SLreconPointManagerBean_cdd46c24_Tie._invoke(_EJSRemote0SLreconPointManagerBean_cdd46c24_Tie.java)
+	>>	 at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:669)
+	>>	 at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:523)
+	>>	 at com.ibm.rmi.iiop.ORB.process(ORB.java:523)
+	>>	 at com.ibm.CORBA.iiop.ORB.process(ORB.java:1575)
+	>>	 at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3039)
+	>>	 at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2922)
+	>>	 at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+	>>	 at com.ibm.ejs.oa.pool.PooledThread.run(ThreadPool.java:118)
+	>>	 at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1881)
+	>> SERVER (id=4773e3aa, host=01hw824061) TRACE END.
+  vmcid: 0x4942f000  minor code: 3718 completed: Maybe 
+18:08:06.894 com.ibm.rmi.corba.ClientDelegate invoke:730 P=86301:O=0:CT ORBRas[default] Throwable from UnknownExceptionInfo javax.ejb.EJBException: The sample.db2.pu reference of type javax.persistence.EntityManager for the reconPointManagerBean component in the sampleEjb.jar module of the sampleEar application cannot be resolved. 

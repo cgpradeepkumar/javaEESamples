@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpring.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringAop.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringAop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringBootApp.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringBootApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringRest.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringRest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleSpringSecurityDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleSpringSecurityDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleUtil/sampleUtil.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleUtil/sampleUtil.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sampleWeb/sampleWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/sampleWeb/sampleWeb.iml" />

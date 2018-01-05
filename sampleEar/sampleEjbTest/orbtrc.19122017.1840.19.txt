@@ -1,0 +1,21 @@
+18:40:19.457 com.ibm.rmi.corba.ClientDelegate invoke:697 P=15202:O=0:CT ORBRas[default] Received SystemException org.omg.CORBA.UNKNOWN: 
+	>> SERVER (id=4773e3aa, host=01hw824061) TRACE START:
+	>>    org.omg.CORBA.UNKNOWN: Name server object factory failed. See FFDC log for details. Factory exception: org.omg.CORBA.UNKNOWN: Name server object factory failed.  See FFDC log for details. Factory exception: com.ibm.ejs.container.ContainerEJBException: Unable to initialize deferred EJB.; nested exception is: <openjpa-2.2.3-SNAPSHOT-r422266:1642995 fatal user error> org.apache.openjpa.util.MetaDataException: The identity class specified by type "class sample.jee.bean.jpa.ReconPoint" is not valid, as the equals method is not overridden. Implement the equals method so that two two instances will compare equal if and only if they have the same primary key values.  vmcid: 0x49421000  minor code: 84  completed: No  vmcid: 0x49421000  minor code: 84  completed: No
+	>>	 at com.ibm.ws.naming.ipcos.WsnOptimizedNamingImpl.resolveLocalReferenceDataBinding(WsnOptimizedNamingImpl.java:2455)
+	>>	 at com.ibm.ws.naming.ipcos.WsnOptimizedNamingImpl.resolveReferenceDataBinding(WsnOptimizedNamingImpl.java:2254)
+	>>	 at com.ibm.ws.naming.ipcos.WsnOptimizedNamingImpl.resolveUnresolvedBinding(WsnOptimizedNamingImpl.java:1943)
+	>>	 at com.ibm.ws.naming.ipcos.WsnOptimizedNamingImpl.resolve_binding(WsnOptimizedNamingImpl.java:1662)
+	>>	 at com.ibm.ws.naming.ipcos.WsnOptimizedNamingImpl.do_resolve_complete_info(WsnOptimizedNamingImpl.java:602)
+	>>	 at com.ibm.ws.naming.cosbase.WsnOptimizedNamingImplBase.resolve_complete_info(WsnOptimizedNamingImplBase.java:2169)
+	>>	 at com.ibm.WsnOptimizedNaming._NamingContextImplBase._invoke(_NamingContextImplBase.java:286)
+	>>	 at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:669)
+	>>	 at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:523)
+	>>	 at com.ibm.rmi.iiop.ORB.process(ORB.java:523)
+	>>	 at com.ibm.CORBA.iiop.ORB.process(ORB.java:1575)
+	>>	 at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3039)
+	>>	 at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2922)
+	>>	 at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+	>>	 at com.ibm.ejs.oa.pool.PooledThread.run(ThreadPool.java:118)
+	>>	 at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1881)
+	>> SERVER (id=4773e3aa, host=01hw824061) TRACE END.
+  vmcid: 0x49421000  minor code: 132  completed: No 

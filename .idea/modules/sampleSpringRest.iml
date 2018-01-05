@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="sampleSpringRest" external.linked.project.path="$MODULE_DIR$/../../sampleSpringRest" external.root.project.path="$MODULE_DIR$/../../sampleSpringRest" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../sampleSpringRest/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../sampleSpringRest/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../sampleSpringRest">
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleSpringRest/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleSpringRest/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleSpringRest/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleSpringRest/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleSpringRest/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleSpringRest/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleSpringRest/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.2.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: taglibs:standard:1.1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.h2database:h2:1.3.148" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-dbcp:commons-dbcp:1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.aspectj:aspectjweaver:1.6.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-swagger2:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-swagger-ui:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.hibernate:hibernate-validator:5.3.4.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-web:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-webmvc:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-aop:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.hibernate:hibernate-core:5.0.12.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.hibernate:hibernate-entitymanager:5.0.12.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.data:spring-data-jpa:1.11.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-aspects:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.eclipse.jdt.core.compiler:ecj:4.5.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.swagger:swagger-annotations:1.5.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.swagger:swagger-models:1.5.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-spi:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-schema:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-swagger-common:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-spring-web:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml:classmate:1.3.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.7.24" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.mapstruct:mapstruct:1.0.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-core:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-aop:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-beans:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-context:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-expression:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.data:spring-data-rest-core:2.6.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-jdbc:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.data:spring-data-commons:1.13.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-orm:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-tx:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.springfox:springfox-core:2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-classic:1.1.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:jul-to-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.atteo:evo-inflector:1.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-core:1.1.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+  <component name="sonarModuleSettings">
+    <option name="alternativeWorkingDirPath" value="" />
+    <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
+    <option name="serverName" value="&lt;PROJECT&gt;" />
+    <option name="useAlternativeWorkingDir" value="false" />
+    <option name="workingDirSelection" value="&lt;MODULE&gt;" />
+  </component>
+</module>

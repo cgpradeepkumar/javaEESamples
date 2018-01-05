@@ -18,4 +18,6 @@ public interface ReconPointManagerRemote {
     public List<ReconPoint> findAll();
 
     public ReconPoint find(String grpNo, Integer rcpNo);
+
+    public ReconPoint save(ReconPoint reconPoint);
 }

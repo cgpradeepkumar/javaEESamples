@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by pkumar on 20/6/17.
  */
 
-@Controller
+@Controller()
 public class WelcomeController {
 
     @Value("${welcome.message}")

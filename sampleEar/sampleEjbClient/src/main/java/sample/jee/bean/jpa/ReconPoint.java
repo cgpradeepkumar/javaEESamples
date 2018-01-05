@@ -7,6 +7,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.util.Collection;
 
 /**
  * @author pkumar on 18/12/17
@@ -18,6 +19,8 @@ import java.sql.Timestamp;
 @NamedQuery(name = "ReconPoint.findAll", query = "Select rcp From ReconPoint rcp")
 public class ReconPoint implements Serializable {
 
+    private static final long serialVersionUID = -2404071532834490952L;
+
     @EmbeddedId
     private PK pk;
 
@@ -26,6 +29,9 @@ public class ReconPoint implements Serializable {
 
     @Column(name = "MODIFYDATE")
     private Timestamp modifyDate;
+
+    @OneToMany(mappedBy = "reconPoint", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private Collection<ReconPointDistribution> reconPointDistributions;
 
     public PK getPk() {
         return pk;
@@ -51,8 +57,18 @@ public class ReconPoint implements Serializable {
         this.modifyDate = modifyDate;
     }
 
+    public Collection<ReconPointDistribution> getReconPointDistributions() {
+        return reconPointDistributions;
+    }
+
+    public void setReconPointDistributions(Collection<ReconPointDistribution> reconPointDistributions) {
+        this.reconPointDistributions = reconPointDistributions;
+    }
+
     @Embeddable
     public static class PK implements Serializable, Cloneable {
+
+        private static final long serialVersionUID = 5732991775412067244L;
 
         @Column(name = "GRPNO")
         private String grpNo;

@@ -3,4 +3,5 @@
 	<session name="SampleBean" simple-binding-name="sample/SampleBean"></session>
 	<session name="QuestionnaireManagerBean" simple-binding-name="sample/QuestionnaireManagerBean"></session>
 	<session name="ReconPointManagerBean" simple-binding-name="sample/ReconPointManagerBean"></session>
+	<session name="DistributionGroupingManagerBean" simple-binding-name="sample/DistributionGroupingManagerBean"></session>
 </ejb-jar-bnd>	
