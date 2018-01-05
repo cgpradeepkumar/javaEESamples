@@ -10,6 +10,7 @@ allprojects {
 
 repositories {
 	mavenCentral()
+
 	ivy {
 		name '3rdpartyLocal'
 		url eaf3rdParty
