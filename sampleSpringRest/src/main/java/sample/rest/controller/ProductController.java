@@ -28,7 +28,7 @@ public class ProductController {
     }
 
     @ApiOperation(value = "Update a product")
-    @RequestMapping(value = "/update/{id}", method = RequestMethod.PUT, produces = "application/json")
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.PUT)
     public ResponseEntity updateProduct(@PathVariable Integer id, @RequestBody Product product) {
         Product storedProduct = productService.getProductById(id);
         storedProduct.setDescription(product.getDescription());

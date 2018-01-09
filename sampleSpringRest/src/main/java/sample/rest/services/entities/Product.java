@@ -1,6 +1,5 @@
 package sample.rest.services.entities;
 
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
 
 import javax.persistence.*;
