@@ -1,0 +1,90 @@
+apply plugin: 'java-library'
+
+apply plugin: 'idea'
+
+apply plugin: 'org.springframework.boot'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.8.RELEASE")
+    }
+}
+
+bootRepackage {
+    mainClass = 'sample.cxf.app.SpringBootCxfApplication'
+}
+
+project.ext {
+    springVersion = "4.2.5.RELEASE"
+    slf4jVersion = "1.7.6"
+    httpClientVersion = "4.3.2"
+    cxfVersion = "3.0.0-milestone1"
+    springBootVersion = "1.5.8.RELEASE"
+    cxfArtifacts = [
+            'cxf-rt-frontend-jaxws',
+            'cxf-rt-frontend-jaxrs',
+            'cxf-rt-transports-http',
+            'cxf-rt-rs-client',
+            'cxf-rt-rs-service-description',
+    ]
+    springArtifacts = [
+            'spring-beans',
+            'spring-context',
+            'spring-core',
+            'spring-aop',
+            'spring-web'
+    ]
+
+    springBootArtifacts = [
+            'spring-boot-starter-web',
+            'spring-boot-starter-tomcat'
+    ]
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    cxfArtifacts.each { artifact -> compile "org.apache.cxf:$artifact:$cxfVersion:" }
+
+//    springArtifacts.each { artifact -> compile "org.springframework:$artifact:$springVersion" }
+
+    springBootArtifacts.each { artifact -> compile "org.springframework.boot:$artifact:$springBootVersion" }
+
+    compile("org.apache.tomcat.embed:tomcat-embed-jasper")
+}
+
+configurations { cxfTool }
+
+ext {
+    cxfToolArtifacts = ['cxf-tools-wsdlto-frontend-jaxws',
+                        'cxf-tools-wsdlto-databinding-jaxb',
+                        'cxf-tools-common',
+                        'cxf-tools-wsdlto-core']
+}
+
+dependencies {
+    cxfToolArtifacts.each { artifact -> compile "org.apache.cxf:$artifact:$cxfVersion" }
+}
+
+task wsdl2Java(type: JavaExec) {
+    ext {
+        outputDir = file("$buildDir/generated/cxf")
+    }
+
+    outputs.dir outputDir
+    main = 'org.apache.cxf.tools.wsdlto.WSDLToJava'
+    classpath = configurations.cxfTool
+    args '-d', outputDir
+    args "-client"
+    args "-verbose"
+    args "-validate"
+    args 'http://localhost:8097/translatorPort?wsdl'
+
+    doLast { println "[INFO] client files generated" }
+}
