@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: 3rdparty:endorsed_apis:8.5.5.5">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/eaf/released/3rdparty/javaee.appservers.webSphere/8.5.5.5/endorsed_apis.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

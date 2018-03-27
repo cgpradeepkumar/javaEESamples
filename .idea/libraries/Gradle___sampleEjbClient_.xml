@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: :sampleEjbClient:">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/sampleEar/sampleEjbTest/libs/sampleEjbClient.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,7 +1,0 @@
-
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(„Á}8™ºØò†,
-ysquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "object".(ÀŒ¹q8™ºØò†,
-wsquid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ê‹¶©ùÿÿÿÿ8™ºØò†,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(çÎÄüÿÿÿÿ8™ºØò†,
-Fsquid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8™ºØò†,
-Dsquid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ8™ºØò†,

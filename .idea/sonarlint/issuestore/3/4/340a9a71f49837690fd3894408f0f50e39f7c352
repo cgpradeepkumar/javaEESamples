@@ -1,8 +1,0 @@
-
-~squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "reconPoint".(Ù‡‘î8Ê¦ûö†,
-lsquid:S2259"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(ì†ù–üÿÿÿÿ8ÁßÚö†,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Å²¶Üşÿÿÿÿ8¿·Üò†,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(³÷¥¨8¿·Üò†,
-‡squid:S1488"fImmediately return this expression instead of assigning it to the temporary variable "reconPointList".(ÿ½¾ûÿÿÿÿ8Ğ–İö†,

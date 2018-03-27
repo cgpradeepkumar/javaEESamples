@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: 3rdparty:javax.servlet.jsp-api-2.3.1:2.3">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/eaf/released/3rdparty/web.jspAPI/2.3/javax.servlet.jsp-api-2.3.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

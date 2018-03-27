@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: 3rdparty:com.ibm.ws.jpa.thinclient:8.5.5.5">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/eaf/released/3rdparty/javaee.appservers.webSphere/8.5.5.5/com.ibm.ws.jpa.thinclient.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

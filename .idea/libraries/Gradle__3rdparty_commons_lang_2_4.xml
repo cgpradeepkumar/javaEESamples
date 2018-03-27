@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: 3rdparty:commons-lang:2.4">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/eaf/released/3rdparty/util.apache.commons.lang/2.4/commons-lang-2.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sampleSpringAop">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/sampleSpringAop/build/libs/sampleSpringAop.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
