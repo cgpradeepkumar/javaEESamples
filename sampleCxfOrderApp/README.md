@@ -4,3 +4,7 @@ Step to Run
 /javaEESamples/sampleCxfOrderApp$ gradle clean build
 
 2. deploy to tomcat server
+
+3. Run client class
+
+sample.cxf.demo.client.OrderProcessClient

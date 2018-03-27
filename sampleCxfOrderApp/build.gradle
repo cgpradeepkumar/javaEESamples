@@ -10,4 +10,3 @@ dependencies {
     compile "org.apache.cxf:cxf-rt-frontend-jaxws:2.2.1"
     compile "org.apache.cxf:cxf-rt-transports-http:2.2.1"
 }
-

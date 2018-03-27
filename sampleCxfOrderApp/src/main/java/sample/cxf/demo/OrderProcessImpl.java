@@ -17,7 +17,7 @@ public class OrderProcessImpl implements OrderProcess {
 
     private String validate(Order order) {
         if (order.getCustomerId() != null && order.getItemId() != null && order.getQuantity() > 0 && order.getPrice() > 0.0) {
-            return order.getItemId() + "_" + order.getItemId() + "_" + Math.random();
+            return order.getCustomerId() + "_" + order.getItemId() + "_" + Math.random();
         }
         return null;
     }
